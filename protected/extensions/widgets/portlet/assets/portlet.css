@@ -1,0 +1,87 @@
+.portlet {
+	margin: 0px;
+	padding: 1px;
+	margin-bottom: 15px;
+	background-color: #e3e3e3;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.portlet .header {
+	color: #666666;
+	font-weight: bold;
+	line-height: 1;
+	padding: 0px 0px 0px;
+	margin: 0;
+	text-align: left;
+	background-color: #ffffff;
+	line-height: 100%;
+}
+
+
+.portlet .content {
+	-moz-border-radius-bottomleft: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	background: #ffffff;
+	padding: 5px 5px 10px 5px;
+}
+
+.portlet ul,
+.portlet ol{
+	list-style-image: url('icon-02.png');
+	list-style-position: inline;
+	list-style-type: square;
+	margin: 0 0 0 0px;
+	padding: 0;
+}
+.portlet li{
+    border-bottom:1px dotted #999;
+    line-height:35px;
+	padding: 0px 0px 0px 0px;
+}
+/* .portlet li ul{
+background-color:#fff;
+list-style-type:disc;
+}
+.portlet li>ul li a{
+color:#000;display:block; width:150px; height:30px;font-size:14px;
+}
+.portlet li>ul li:hover{
+background-color:red;
+}
+.portlet li>ul li:hover a{
+
+} */
+.portlet li a{ color:#000;display:block; width:auto; height:35px;font-size:14px;}
+.portlet li :first-child:hover{ background-color:#999;cursor:pointer;}
+.portlet li :first-child:hover a{ color:#fff;}
+.portlet li :first-child span {
+	color: #777777;
+	font-weight: bold;
+}
+.portlet :first-child li.active a {   
+	color: #c00000;background-color:#ccc;background-image:url('icon-02.png');
+}
+
+.portlet a.passive {
+	color: #888888;
+}
+
+.portlet .row {
+	margin: 0 0 5px 0;
+}
+
+.portlet .row label {
+	display: block;
+}
+
+.portlet .row .hint {
+	margin: 0;
+	padding: 0;
+	color: #999;
+}

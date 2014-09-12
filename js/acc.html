@@ -1,0 +1,46 @@
+//jquery实现手风琴效果 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>手风琴</title> 
+ 
+<script type="text/javascript" language="javascript" src="jquery-1.4a2.min.js"> 
+</script> 
+<script type="text/javascript" language="javascript" src="jquery-ui-1.8.18.custom.min.js"> 
+</script> 
+<link rel="stylesheet" href="ui-lightness/jquery-ui-1.8.18.custom.css"/> 
+<script type="text/javascript" language="javascript"> 
+$(function(){ 
+    $("#accordion").accordion( 
+    { 
+        header: "h3", 
+        event:"mouseover", 
+        icons:{ 
+            header:"ui-icon-carat-2-e-w" 
+            }, 
+        } 
+     
+    ).sortable({ 
+        axis:"Y"//拖动效果  上下拖动  默认为左右拖动 
+        }); 
+    }) 
+</script> 
+</head> 
+<body> 
+<div id="accordion" style="width:600px; height:600px; border:1px #F00 solid"> 
+    <div> 
+      <h3><a href="#">first</a></h3> 
+      <div>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div> 
+    </div> 
+  <div> 
+   <h3><a href="#">second</a></h3> 
+   <div>Phasellus mattis tincidunt nibh.</div> 
+  </div> 
+  <div> 
+   <h3><a href="#">third</a></h3> 
+   <div>悠悠</div> 
+   </div> 
+ </div> 
+</body> 
+</html> 

@@ -1,0 +1,102 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 10pt Arial,Helvetica,sans-serif;
+	background: #EFEFEF;
+}
+
+#page
+{   
+    width:960px; padding-left:20px; padding-right:20px; height:auto; margin:0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: white;
+	border: 1px solid #C9E0ED;
+}
+
+#header
+{
+	padding-top:12px; height:75px;
+	
+}
+#logo
+{
+	width:352px; height:45px;
+}
+
+#logo img{width:352px; height:45px;}
+
+#tel img{ margin-left:30px; margin-top:15px;}
+#top-right{ width:250px;}
+#top-text ul li{ float:left; padding-right:8px;}
+#top-text ul li a{ color:#000;}
+#top-text ul li a:hover{ text-decoration:underline;color:#EE7000;}
+#search{ width:190px; height:24px; line-height:24px; padding-right:10px; background:#fff; top:0; border:1px solid #999; margin-top:14px;}
+#search-button{ background:url(../images/search.jpg) no-repeat; height:24px; width:15px;}
+
+
+
+#content
+{
+	padding: 20px;
+}
+
+#sidebar
+{
+	padding: 20px;
+}
+
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #C9E0ED;
+}
+
+#logo
+{
+	padding: 10px 20px;
+	font-size: 200%;
+}
+
+#mainmenu
+{
+	background:white url(bg.gif) repeat-x left top;
+}
+
+#mainmenu ul
+{
+	padding:6px 20px 5px 20px;
+	margin:0px;
+}
+
+#mainmenu ul li
+{
+	display: inline;
+	width:120px;
+}
+
+#mainmenu ul li a
+{
+	color:#ffffff;
+	background-color:transparent;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:5px 8px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	color: #6399cd;
+	background-color:#EFF4FA;
+	text-decoration:none;
+}
+
+.banner{ width:960px; height:350px; margin-top:15px;}
+#KinSlideshow a{width:960px; height:350px; float:left; overflow:hidden;}
+
